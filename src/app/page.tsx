@@ -67,7 +67,7 @@ function StatCard({ title, value, trend, trendType = "neutral", children = null 
 
 export default function Home() {
   return (
-    <div className="bg-primary min-h-screen px-5 py-9">
+    <div className="bg-primary min-h-full px-5 py-9">
       <div className="mx-auto">
         <h1 className="text-3xl font-bold mb-4">Dashboard</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-5">
